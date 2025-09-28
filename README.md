@@ -51,30 +51,36 @@ jobs:
       run: pytest
     - name: Security scan with Bandit
       run: bandit -r .
+3. Badges
 
-### 3. Badges
+Build & CI Status:
 
-- Build & CI Status:  
-[![Python CI/CD DevSecOps](https://github.com/Shayan56/Progress_Assignment_SHAYAN/actions/workflows/ci.yml/badge.svg)](https://github.com/Shayan56/Progress_Assignment_SHAYAN/actions/workflows/ci.yml)
 
----
+🛠️ Challenges & Assumptions
 
-### 🛠️ Challenges & Assumptions
+Pipeline triggers on push and pull requests.
 
-- Pipeline triggers on **push** and **pull requests**.  
-- Dependency security warnings handled manually.  
-- Limited test coverage for demo purposes.  
+Dependency security warnings handled manually.
 
----
+Limited test coverage for demo purposes.
 
-### 🤖 Use of AI Tooling
+🤖 Use of AI Tooling
 
-**ChatGPT** assisted in:  
-- Generating GitHub Actions workflow boilerplate  
-- Suggesting security and static analysis tools  
-- Writing README structure and workflow instructions  
+ChatGPT assisted in:
 
----
+Generating GitHub Actions workflow boilerplate
+
+Suggesting security and static analysis tools
+
+Writing README structure and workflow instructions
+
+📌 Reflection
+
+Learned to implement automated CI/CD pipelines with quality and security gates.
+
+Gained experience integrating linting, testing, and static analysis.
+
+Tricky part: configuring multiple tools in one workflow and fixing initial pipeline errors.
 
 ### 📌 Reflection
 
