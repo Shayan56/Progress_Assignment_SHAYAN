@@ -27,6 +27,37 @@ Configured using **GitHub Actions**.
 3. **Static Code Analysis / Security Checks**  
    Tools used: `Bandit`, `CodeQL`, or `SonarCloud` to detect vulnerabilities and enforce coding standards.
 
+### 3. Badges
+
+- Build & CI Status:  
+[![Python CI/CD DevSecOps](https://github.com/Shayan56/Progress_Assignment_SHAYAN/actions/workflows/ci.yml/badge.svg)](https://github.com/Shayan56/Progress_Assignment_SHAYAN/actions/workflows/ci.yml)
+
+---
+
+### 🛠️ Challenges & Assumptions
+
+- Pipeline triggers on **push** and **pull requests**.  
+- Dependency security warnings handled manually.  
+- Limited test coverage for demo purposes.  
+
+---
+
+### 🤖 Use of AI Tooling
+
+**ChatGPT** assisted in:  
+- Generating GitHub Actions workflow boilerplate  
+- Suggesting security and static analysis tools  
+- Writing README structure and workflow instructions  
+
+---
+
+### 📌 Reflection
+
+- Learned to implement automated **CI/CD pipelines** with quality and security gates.  
+- Gained experience integrating **linting, testing, and static analysis**.  
+- Tricky part: configuring multiple tools in one workflow and fixing initial pipeline errors.  
+
+
 #### GitHub Actions Workflow Example
 ```yaml
 name: CI/CD Pipeline
@@ -53,36 +84,6 @@ jobs:
       run: bandit -r .
 3. Badges
 
-Build & CI Status:
-
-
-🛠️ Challenges & Assumptions
-
-Pipeline triggers on push and pull requests.
-
-Dependency security warnings handled manually.
-
-Limited test coverage for demo purposes.
-
-🤖 Use of AI Tooling
-
-ChatGPT assisted in:
-
-Generating GitHub Actions workflow boilerplate
-
-Suggesting security and static analysis tools
-
-Writing README structure and workflow instructions
-
-📌 Reflection
-
-Learned to implement automated CI/CD pipelines with quality and security gates.
-
-Gained experience integrating linting, testing, and static analysis.
-
-Tricky part: configuring multiple tools in one workflow and fixing initial pipeline errors.
-
-### 📌 Reflection
 
 - Learned to implement automated **CI/CD pipelines** with quality and security gates.  
 - Gained experience integrating **linting, testing, and static analysis**.  
