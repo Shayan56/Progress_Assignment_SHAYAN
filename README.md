@@ -82,9 +82,3 @@ jobs:
       run: pytest
     - name: Security scan with Bandit
       run: bandit -r .
-3. Badges
-
-
-- Learned to implement automated **CI/CD pipelines** with quality and security gates.  
-- Gained experience integrating **linting, testing, and static analysis**.  
-- Tricky part: configuring multiple tools in one workflow and fixing initial pipeline errors.  
